@@ -209,4 +209,4 @@ jobs:
         FRONTEND-EDIT-TEACHER_RESULTS: "${{steps.frontend-edit-teacher.outputs.result}}"
         FRONTEND-SEARCH-TEACHER_RESULTS: "${{steps.frontend-search-teacher.outputs.result}}"
       with:
-        runners: backend-list-teachers,backend-add-teacher,backend-edit-teacher,backend-delete-teacher,backend-list-students,backend-add-student,backend-edit-student,backend-delete-student,dummy-test,frontend-add-student,frontend-delete-student,frontend-edit-student,frontend-search-student,frontend-add-teacher,frontend-delete-teacher,
+        runners: backend-list-teachers,backend-add-teacher,backend-edit-teacher,backend-delete-teacher,backend-list-students,backend-add-student,backend-edit-student,backend-delete-student,dummy-test,frontend-add-student,frontend-delete-student,frontend-edit-student,frontend-search-student,frontend-add-teacher,frontend-delete-teacher,frontend-edit-teacher,frontend-search-teacher
